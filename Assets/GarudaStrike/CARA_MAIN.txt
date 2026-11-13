@@ -1,0 +1,33 @@
+GARUDA STRIKE - FPS 3D (Unity)
+================================
+Seluruh map, karakter, senjata, efek, suara, dan musik dibuat otomatis lewat kode
+(tidak ada aset eksternal yang perlu diunduh).
+
+CARA MENJALANKAN (cara 1: .unitypackage)
+1. Install Unity 2021.3 LTS atau lebih baru (Unity 2022 / Unity 6 juga bisa).
+2. Buat proyek baru: template "3D" (Built-in atau URP, keduanya didukung).
+3. Klik dua kali GarudaStrike.unitypackage -> Import.
+4. Buka scene apa saja (mis. SampleScene) lalu tekan tombol PLAY. Game langsung menampilkan menu.
+
+CARA 2: salin folder Assets/GarudaStrike dari ZIP ke folder Assets proyek Unity Anda.
+
+MEMBUAT FILE GAME (.exe)
+File > Build Settings > pastikan scene yang terbuka ada di daftar > Build.
+Jika tampilan pink di hasil build: Project Settings > Graphics > Always Included Shaders,
+tambahkan shader "Standard" (Built-in) atau "Universal Render Pipeline/Lit" (URP).
+
+FITUR
+- Menu utama dengan latar peta 3D berputar, Pilih Misi, Cara Bermain & Aturan, Pengaturan, Jeda
+- 2 map: Gudang Logistik (indoor) dan Kota Gurun (outdoor)
+- 2 mode: Survival 5 Gelombang (+Bos) dan Time Attack 5 menit
+- 3 tingkat kesulitan
+- 4 senjata (Pistol, Senapan Serbu, Shotgun, Sniper dengan scope) + pisau + granat
+- 4 tipe musuh (Prajurit, Pelari, Berat, Bos) dengan AI, penghindar rintangan, hitbox kepala/badan/kaki
+- Darah + armor, stamina, jongkok, lompat, damage jatuh, medkit/amunisi/armor/granat
+- HUD lengkap: radar, indikator arah serangan, hit marker, kombo, skor, rekor tersimpan
+- Layar hasil: akurasi, headshot, kombo terbaik, peringkat S/A/B/C
+
+KONTROL
+W A S D gerak | Mouse bidik | Klik kiri tembak | Klik kanan bidik/scope | R reload
+1-4 / scroll ganti senjata | Shift lari | Ctrl atau C jongkok | Spasi lompat
+V pisau | G granat | Esc jeda
